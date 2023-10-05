@@ -17,9 +17,9 @@ if isMIDI then
   reaper.ShowConsoleMsg("TRUE")
   
   -- Set location to save MIDI
-  save_path = "/Users/willsaliba/Downloads/hooray.midi"
+  save_path = "/Users/willsaliba/Downloads/topics/reaper/M_to_PR/hooray.midi"
   
-  --///////pythonified block/////////
+  --///////pythonified till here/////////
     
   --saving MIDI segment using take & pcm_src then output result
   PCM_src = reaper.GetMediaItemTake_Source(take)
