@@ -30,7 +30,7 @@ appropriate interpreter's dynamic library and python environment.
 
 - Using ReaScripts  
 
-Once you have selected a midi file in a track in Reaper you can use the ReaScript
+Once you have selected a midi file in a track in REAPER you can use the ReaScript
 by going to Actions (is selected on mac from top menu bar).
 
 Then search 'ReaScript' and select:  
@@ -40,10 +40,11 @@ ReaScript: Run/edit ReaScript    - bring up IDE to view & execute the code
 After selecting either option then select the midi_to_rolls.py file to run / 
 edit it
 
-You will need to update the path where you would like to save the midi segment 
-copy its piano rolls.
-
-
+You will need to update the path which controls where the midi segment copy and 
+it's instrument rolls are saved.  
+  
+  
+  
 NOTE: Currently there are some issues generating the paino rolls including:
 -producing rolls for short MIDI segments
 -reproducing rolls for segments (will only work once when first opening REAPER)
