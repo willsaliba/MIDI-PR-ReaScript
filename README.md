@@ -6,19 +6,18 @@ roll representation for the Piano, Bass, Drums, Guitar and Reed.
 
 ## To Use the Code
 
-- Have REAPER downloaded  
+- Install REAPER:  
 Reaper will automatically support running ReaScripts so only need to install 
 REAPER.  
 
-- Enable ReaScript to run python  
+- Enable ReaScript to run python:  
 Ensure python is installed along with the modules listed at the top of 
-midi_to_rolls.py.  
+midi_to_rolls.py. To install SWS (for saving copy of midi segment) follow 
+these instructions: https://www.sws-extension.org/  
 
-To install SWS (for saving copy of midi segment) follow these instructions:
- https://www.sws-extension.org/  
+- Within REAPER:  
 
-Within REAPER:  
-Get to the REAPER preferences (on mac select 'REAPER' from top menu bar then 
+Go to the REAPER preferences (on mac select 'REAPER' from top menu bar then 
 'Settings...').  
 
 Within settings scroll to the 'Plug-ins' section and click on 'ReaScript'.  
@@ -28,6 +27,7 @@ dll directroy' and 'Force ReaScript to use specifc Python .dylib' to the
 appropriate interpreter's dynamic library and python environment.  
 
 - Using ReaScripts  
+
 Once you have selected a midi file in a track in Reaper you can use the ReaScript
 by going to Actions (is selected on mac from top menu bar).
 
